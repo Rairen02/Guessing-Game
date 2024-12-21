@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.guessthenumbergame",
+    "sha256_cert_fingerprints":
+    ["47:7F:A1:13:5B:34:98:25:03:9A:37:CD:84:2B:C8:EA:FF:F2:B6:11:26:C4:BB:33:75:C4:46:A3:6E:A4:DD:97"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://www.guessthenumber.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.guessthenumbergame",
+    "sha256_cert_fingerprints":
+    ["47:7F:A1:13:5B:34:98:25:03:9A:37:CD:84:2B:C8:EA:FF:F2:B6:11:26:C4:BB:33:75:C4:46:A3:6E:A4:DD:97"]
+  }
+}]
